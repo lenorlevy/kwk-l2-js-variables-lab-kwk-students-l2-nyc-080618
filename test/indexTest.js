@@ -7,7 +7,7 @@ describe('index.js', function () {
     });
 
     it('raises error if the companyName is changed', function () {
-      expect(function () { companyName = 'Scruber' }).to.throw(TypeError);
+      expect(function () { companyName = 'Lenor' }).to.throw(TypeError);
     });
   });
 
